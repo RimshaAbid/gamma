@@ -1,0 +1,107 @@
+.navbar-brand{
+	color:#1caa98 !important;
+}
+.active:hover{
+	background-color: lightgray;
+}
+.title{
+	color:#1caa98 !important;
+}
+ #section{
+ 	background: #1b222a url(../img/image.jpg) no-repeat top center;
+ 	background-size: cover;
+ 	color: #fff;
+ 	height: 500px;
+ 	padding-top: 80px;
+ 	font-size: 25px;
+	
+}
+.col-md-4{
+	margin-bottom: 20px;
+}
+section#title-bar{
+	background-color: #1caa98;
+	color: #fff;
+	padding: 10px;
+	margin-top: 56px;
+}
+
+section{
+	padding: 90px 0 90px 0; 
+}
+
+#demo{
+	border:1px solid gray;
+}
+#features{
+	background-color:#11ac9f;
+	padding: 40px;
+	overflow: auto;
+	color: #fff;
+
+}
+#features ul li{
+	font-size: 22px;
+	list-style: none;
+	line-height: 2.0em;
+	font-weight: bold;
+
+}
+#features ul{
+	padding: 0;
+	margin:0;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0 10px 0;
+}
+footer li {
+	float: left;
+	padding: 0 10px 0 10px;
+	list-style: none;
+}
+footer a{
+	color: #fff; 
+	text-decoration:none; 
+
+}
+footer p{
+	float: right;
+}
+#footer{
+	margin-top: 130px;
+	padding: 20px 0 10px 0;
+}
+section#Contact{
+	padding-bottom: 0px; 
+}
+@media(max-width: 1200px){
+
+}
+@media(max-width: 991px){
+	.download{
+		display: none;
+	}
+	
+}
+@media(min-width: 768px) and(max-width: 990px){
+	
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 500px){
+	.heading{
+	text-align: center;
+}
+
+#features ul li{
+	font-size: 18px;
+	}
+	footer p{
+		float: none;
+		text-align: center;
+		padding: 20px;
+	}
+}
